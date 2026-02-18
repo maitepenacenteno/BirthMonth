@@ -6,7 +6,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Pleaser enter your birth month: ");
         int N = scanner.nextInt();
-
+        
         if (N >= 1 && N <= 12)
         {
             System.out.println("Your birth month is: " + N);
